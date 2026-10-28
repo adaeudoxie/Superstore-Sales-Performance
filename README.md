@@ -19,7 +19,9 @@ Management had four years of order data but no single view of sales, profitabili
 
 ## Dataset
 
-[Superstore Sales Dataset](data/Superstore_Dataset.csv): 9,994 order lines × 21 columns, covering orders placed between 3 January 2014 and 30 December 2017 across the United States (4 regions, 49 states, 5,009 orders, 793 customers, 1,862 products). Each row is one product within an order.
+[Superstore Sales Dataset](https://github.com/adaeudoxie/Superstore-Sales-Performance/blob/main/Dataset.csv)
+
+9,994 order lines × 21 columns, covering orders placed between 3 January 2014 and 30 December 2017 across the United States (4 regions, 49 states, 5,009 orders, 793 customers, 1,862 products). Each row is one product within an order.
 
 ## Data Preparation (Power Query)
 
@@ -33,9 +35,7 @@ Management had four years of order data but no single view of sales, profitabili
 | New columns | `Processing Duration` (Ship Date − Order Date) and `Profit Status` (Profit / Loss) |
 | Calendar table | DAX date table (2014–2017) marked as a date table and related to Order Date, used for the year slicer and time analysis |
 
-## Data Model and DAX
-
-The five KPIs are DAX measures, so they respond correctly to every slicer. Full code: [`dax/measures.dax`](dax/measures.dax).
+## Data Model & DAX
 
 | KPI | Formula | Value |
 | --- | --- | --- |
@@ -63,7 +63,7 @@ Year, Region and Segment slicers are synced across both pages, and Next / Back b
 
 ## Key Insights
 
-1. *Profit is concentrated.** The West and East regions generate 70% of profit, and California and New York alone earn over half of all profit ($150K). Texas is the 3rd-largest state by sales but the biggest loss-maker (−$25.7K).
+1. *Profit is concentrated.* The West and East regions generate 70% of profit, and California and New York alone earn over half of all profit ($150K). Texas is the 3rd-largest state by sales but the biggest loss-maker (−$25.7K).
 2. *Consumers drive revenue, Home Office drives margin.* Consumers bring in 50.6% of sales, but Home Office earns the highest margin (14.0% vs 11.5%).
 3. *Furniture category barely makes a profit.* It sells almost as much as Technology ($742K vs $836K) but earns a 2.5% margin vs 17.4%. Tables (−$17.7K), Bookcases (−$3.5K) and Supplies (−$1.2K) lose money.
 4. *Copiers are the most profitable products.* Copiers earn $55.6K at a 37.2% margin; the Canon imageCLASS 2200 alone earns $25.2K.
