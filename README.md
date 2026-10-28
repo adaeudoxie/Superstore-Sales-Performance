@@ -54,7 +54,7 @@ Management had four years of order data but no single view of sales, profitabili
 
 Year, Region and Segment slicers are synced across both pages, and Next / Back buttons link the pages.
 
-*Figure 1: Performance Overview Dashboard*
+[*Figure 1: Performance Overview Dashboard*](https://github.com/adaeudoxie/Superstore-Sales-Performance/blob/main/Dashboards/Pg.%201.png)
 <img width="3026" height="1736" alt="Performance Overview" src="https://github.com/user-attachments/assets/ddb93892-5ace-4524-bcb1-c8a2fb268f59" />
 
 *Figure 2: Detailed Analysis Dashboard*
