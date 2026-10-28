@@ -57,7 +57,7 @@ Year, Region and Segment slicers are synced across both pages, and Next / Back b
 [*Figure 1: Performance Overview Dashboard*](https://github.com/adaeudoxie/Superstore-Sales-Performance/blob/main/Dashboards/Pg.%201.png)
 <img width="3026" height="1736" alt="Performance Overview" src="https://github.com/user-attachments/assets/ddb93892-5ace-4524-bcb1-c8a2fb268f59" />
 
-*Figure 2: Detailed Analysis Dashboard*
+[*Figure 2: Detailed Analysis Dashboard*](https://github.com/adaeudoxie/Superstore-Sales-Performance/blob/main/Dashboards/Pg.%202.png)
 <img width="3028" height="1740" alt="Detailed Analysis" src="https://github.com/user-attachments/assets/e2089b50-88ef-44ad-ab62-b90a53e6f0d3" />
 
 
@@ -79,16 +79,6 @@ Year, Region and Segment slicers are synced across both pages, and Next / Back b
 6. Plan stock and staffing for the September–December peak and run promotions in January–February.
 
 Full analysis, including risks and opportunities, is in the [Executive Summary Report](https://github.com/adaeudoxie/Superstore-Sales-Performance/blob/main/Reports/Executive%20Summary.pdf).
-
-## Repository structure
-
-```
-├── data/        Superstore_Dataset.csv (raw data)
-├── dax/         measures.dax (KPI measures and Calendar table)
-├── docs/        BI Overview Report and Executive Summary Report
-├── images/      Dashboard screenshots
-└── report/      Power BI file (.pbix) and PDF export
-```
 
 ## Tools & Skills
 
