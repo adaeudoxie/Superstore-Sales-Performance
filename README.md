@@ -78,7 +78,7 @@ Year, Region and Segment slicers are synced across both pages, and Next / Back b
 5. Build bundles and loyalty pricing for the Home Office segment.
 6. Plan stock and staffing for the September–December peak and run promotions in January–February.
 
-Full analysis, including risks and opportunities, is in the [Executive Summary Report](Reports/Executive Summary.pdf).
+Full analysis, including risks and opportunities, is in the [Executive Summary Report](https://github.com/adaeudoxie/Superstore-Sales-Performance/blob/main/Reports/Executive%20Summary.pdf).
 
 ## Repository structure
 
